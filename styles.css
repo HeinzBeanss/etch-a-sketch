@@ -1,0 +1,21 @@
+body {
+    background-color: #0f0f0f;
+    height: 100vh;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.square {
+    min-height: 50px;
+    min-width: 50px;
+    background-color: white;
+}
