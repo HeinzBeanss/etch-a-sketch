@@ -1,21 +1,82 @@
 body {
-    background-color: #0f0f0f;
+    background-color: #1d1d1d;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .grid {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-.line {
+    max-width: 625px;
     display: flex;
     flex-wrap: wrap;
-    gap: 2px;
+    border: rgb(193, 233, 235) solid 5px;;
+    margin: 30px;
 }
 
 .square {
-    min-height: 50px;
-    min-width: 50px;
     background-color: white;
+}
+
+.bigSquare {
+    height: 25px;
+    width: 25px;
+}
+
+.mediumSquare {
+    height: 12.5px;
+    width: 12.5px;
+}
+
+.smallSquare {
+    height: 6.25px;
+    width: 6.25px;
+}
+
+.header {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.gridButtons {
+    margin: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.selected {
+    font-weight: bold;
+    color: #0f0f0f;
+    background-color: rgb(193, 233, 235);
+    
+}
+
+p {
+    color: rgb(193, 233, 235);
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    
 }
